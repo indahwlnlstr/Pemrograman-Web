@@ -7,7 +7,7 @@ li{
 }
 
 .header{
-    background-color: #26d0c9;
+    background-color: #fd7398;
     color: #fff;
     height: 90px;
 }
@@ -26,6 +26,28 @@ li{
 .main{
     padding: 100px 80px;
 }
+.contents {
+height: 500px;
+margin-top: 100px;
+border-bottom: 2px solid #ff7b9c;
+}
+
+.section-title{
+    border-bottom: 2px solid #ff7b9c;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents-item{
+    float: left;
+    margin-right: 40px;
+}
+
+.contents-item p{
+    font-size: 24px;
+    margin-top: 30px;
+}
 
 .copy-container h1{
     font-size: 140px;
@@ -37,8 +59,31 @@ li{
     color: #ff4a4a;
 }
 
+.contact-form input{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #fe7895;
+}
+
+.contact-form textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #fe7895;
+}
+
+.contact-submit{
+    background: #f281a7;
+    color: #fff;
+}
+
 .footer{
-    background-color: #2f5167;
+    background-color: #da9393;
     height: 120px;
     color: #fff;
     padding: 40px;
